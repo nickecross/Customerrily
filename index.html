@@ -8,84 +8,140 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Lato:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <div class="navbar-fixed">
-    <nav class="indigo" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Customerrily</a>
-        <ul class="right hide-on-med-and-down">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Our Work</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a class="grey-text text-darken-3" href="#!">About</a></li>
+      <li><a class="grey-text text-darken-3" href="#!">Blog</a></li>
+      <li class="divider"></li>
+      <li><a class="grey-text text-darken-3" href="#!">Contact</a></li>
+    </ul>
+    <div class="navbar-fixed">
+      <nav class="white" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo indigo-text">Customerrily</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons indigo-text">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="grey-text text-darken-3" href="#">Work</a></li>
+            <li><a class="grey-text text-darken-3" href="#">Services</a></li>
+            <li><a class="grey-text text-darken-3" href="#">Contact</a></li>
+            <li class="active"><a class="white-text" href="#"><i class="material-icons">home</i></a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button indigo-text" href="#!" data-activates="dropdown1"><i class="material-icons right">more_vert</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
-        <ul id="nav-mobile" class="side-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Our Work</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-      </div>
-    </nav>
-  </div>
+    <ul id="nav-mobile" class="side-nav">
+      <li><a class="grey-text text-darken-3" href="#">Work</a></li>
+      <li><a class="grey-text text-darken-3" href="#">Services</a></li>
+      <li><a class="grey-text text-darken-3" href="#">Contact</a></li>
+      <li class="active"><a class="white-text" href="#"><i class="material-icons">home</i></a></li>
+    </ul>
 
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center indigo-text">Harnessing your brand's power</h1>
+      <h1 class="header center indigo-text">Hingham Web Development</h1>
       <div class="row center">
-        <h5 class="header col s12 light">Join us on the cutting edge of web and app design and development.</h5>
+        <h5 class="header col s12 light hero-subtitle">Bringing custom web design and development to the South Shore of Boston.</h5>
       </div>
       <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light pink">Get Started</a>
+        <a href="#" id="download-button" class="btn-large waves-effect waves-light pink scale-transition scale-in hero-btn">Get in touch</a>
       </div>
       <br><br>
 
     </div>
   </div>
 
+  <div class="section">
+    <div class="row">
+      <div class="col s12 m12 l4 center">
+        <div class="services">
+          <img src="images/lighthouse.svg" alt="Strategy" class="services-icon">
+          <h3 class="services-title">Strategy</h3>
+          <p>We begin every project by getting to know you, your business, and your customers needs.</p>
+        </div>
+      </div>
+      <div class="col s12 m12 l4 center">
+        <div class="services">
+          <img src="images/BucketandSpade.svg" alt="Design" class="services-icon">
+          <h3 class="services-title">Design</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col s12 m12 l4 center">
+        <div class="services">
+          <i class="fa fa-code fa-4x cyan-text" aria-hidden="true"></i>
+          <h3 class="services-title">Development</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
+  <div class="section">
+    <div class="container">
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center indigo-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center indigo-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center indigo-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+        <div class="col s12">
+          <h2 class="center">Recent Projects</h2>
+          <div class="col s4 offset-s4">
+            <div class="row">
+              <div class="col s4 indigo title-line"></div>
+              <div class="col s4 pink title-line"></div>
+              <div class="col s4 cyan title-line"></div>
+            </div>
           </div>
         </div>
       </div>
-
-    </div>
-    <br><br>
-
-    <div class="section">
-
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/GGCP.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title">Gigi's Crafty Place</span>
+              <p>We had great fun working on this website for the Cohasset based party venue, Gigi's Crafty Place.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://www.gigiscraftyplace.com" target="_blank"  class="indigo-text">Visit site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/VEC.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title">Van Etten Consulting</span>
+              <p>Van Etten Consulting, based in Cohasset, needed a new logo and website re-design.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://www.vanettenconsulting.com" target="_blank" class="indigo-text">Visit site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/EZS.png">
+            </div>
+            <div class="card-content">
+              <span class="card-title">EZSoundProof.com</span>
+              <p>This Hull based eCommerce company needed website design changes and a new mobile form.</p>
+            </div>
+            <div class="card-action">
+              <a href="http://www.ezsoundproof.com" target="_blank" class="indigo-text">Visit site</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -94,8 +150,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
+          <p class="grey-text text-lighten-4">Based in Hingham, on the South Shore of Boston, we design and develop custom websites and web applications.</p>
 
         </div>
         <div class="col l3 s12">

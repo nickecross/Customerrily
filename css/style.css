@@ -13,6 +13,43 @@
 	font-size: inherit;
 }
 
-.brand-logo, h1 {
+body {
+  font-family: Lato;
+}
+
+.brand-logo, h1, h2, .card-title, .services-title {
   font-family: Pacifico;
+}
+
+nav ul li.active {
+    background-color: #e91e63;
+}
+
+nav ul li a, .hero-subtitle {
+  letter-spacing: 0.8px;
+}
+
+.hero-band {
+  height: 18px;
+}
+
+.title-line {
+  height: 5px;
+  margin: 25px 0;
+}
+
+.services {
+  padding: 50px;
+}
+
+.services-title {
+  font-size: 2em;
+}
+
+.hero-btn {
+  margin-top: 25px;
+}
+
+.services-icon {
+  width: 50px;
 }
