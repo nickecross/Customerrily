@@ -14,34 +14,34 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-    <ul id="dropdown1" class="dropdown-content">
-      <li><a class="grey-text text-darken-3" href="#!">About</a></li>
-      <li><a class="grey-text text-darken-3" href="#!">Blog</a></li>
-      <li class="divider"></li>
-      <li><a class="grey-text text-darken-3" href="#!">Contact</a></li>
-    </ul>
-    <div class="navbar-fixed">
-      <nav class="white" role="navigation">
-        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo indigo-text">Customerrily</a>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons indigo-text">menu</i></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a class="grey-text text-darken-3" href="#">Work</a></li>
-            <li><a class="grey-text text-darken-3" href="#">Services</a></li>
-            <li><a class="grey-text text-darken-3" href="#">Contact</a></li>
-            <li class="active"><a class="white-text" href="#"><i class="material-icons">home</i></a></li>
-            <!-- Dropdown Trigger -->
-            <li><a class="dropdown-button indigo-text" href="#!" data-activates="dropdown1"><i class="material-icons right">more_vert</i></a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+  <a name="home"></a>
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a class="grey-text text-darken-3" href="#!">About</a></li>
+    <li class="divider"></li>
+    <li><a class="grey-text text-darken-3" href="#!">Blog</a></li>
+  </ul>
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo indigo-text">Customerrily</a>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons indigo-text">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="grey-text text-darken-3" href="#services">Services</a></li>
+          <li><a class="grey-text text-darken-3" href="#work">Work</a></li>
+          <li><a class="grey-text text-darken-3" href="#contact">Contact</a></li>
+          <li class="active"><a class="white-text" href="#home"><i class="material-icons">home</i></a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button indigo-text" href="#!" data-activates="dropdown1"><i class="material-icons right">more_vert</i></a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
-    <ul id="nav-mobile" class="side-nav">
-      <li><a class="grey-text text-darken-3" href="#">Work</a></li>
-      <li><a class="grey-text text-darken-3" href="#">Services</a></li>
-      <li><a class="grey-text text-darken-3" href="#">Contact</a></li>
-      <li class="active"><a class="white-text" href="#"><i class="material-icons">home</i></a></li>
-    </ul>
+  <ul id="nav-mobile" class="side-nav">
+    <li><a class="grey-text text-darken-3" href="#">Work</a></li>
+    <li><a class="grey-text text-darken-3" href="#">Services</a></li>
+    <li><a class="grey-text text-darken-3" href="#">Contact</a></li>
+    <li class="active"><a class="white-text" href="#"><i class="material-icons">home</i></a></li>
+  </ul>
 
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
@@ -59,28 +59,40 @@
   </div>
 
   <div class="section">
+    <a name="services"></a>
+    <div class="row">
+      <div class="col s4 indigo sep-line"></div>
+      <div class="col s4 pink sep-line"></div>
+      <div class="col s4 cyan sep-line"></div>
+    </div>
     <div class="row">
       <div class="col s12 m12 l4 center">
         <div class="services">
-          <img src="images/lighthouse.svg" alt="Strategy" class="services-icon">
-          <h3 class="services-title">Strategy</h3>
-          <p>We begin every project by getting to know you, your business, and your customers needs.</p>
+          <img src="images/lighthouse.svg" alt="Branding" class="services-icon">
+          <h3 class="services-title">Branding</h3>
+          <p>Your website needs to represent your brand in the best way possible. We work closely with you to understand your brand before making our design recommendations for graphics, images, colors, and fonts.</p>
         </div>
       </div>
       <div class="col s12 m12 l4 center">
         <div class="services">
           <img src="images/BucketandSpade.svg" alt="Design" class="services-icon">
           <h3 class="services-title">Design</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>A new website design needs to help your organization achieve it's goals, whether that be increased engagement, lead generation or sales. Our design process begins and ends with helping you achieve these goals.</p>
         </div>
       </div>
       <div class="col s12 m12 l4 center">
         <div class="services">
-          <i class="fa fa-code fa-4x cyan-text" aria-hidden="true"></i>
+          <img src="images/glasses.svg" alt="Design" class="services-icon">
           <h3 class="services-title">Development</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p>Building your website or application requires careful consideration of the available technologies, like WordPress or React. We will recommend the technology that sets you up for success.</p>
         </div>
       </div>
+    </div>
+    <a name="work"></a>
+    <div class="row">
+      <div class="col s4 indigo sep-line"></div>
+      <div class="col s4 pink sep-line"></div>
+      <div class="col s4 cyan sep-line"></div>
     </div>
   </div>
 
@@ -145,6 +157,67 @@
     </div>
   </div>
 
+  <div class="section">
+    <a name="contact"></a>
+    <div class="row">
+      <div class="col s4 indigo sep-line"></div>
+      <div class="col s4 pink sep-line"></div>
+      <div class="col s4 cyan sep-line"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h2 class="center">Get in touch!</h2>
+          <div class="col s4 offset-s4">
+            <div class="row">
+              <div class="col s4 indigo title-line"></div>
+              <div class="col s4 pink title-line"></div>
+              <div class="col s4 cyan title-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <form class="col s12" action="https://formspree.io/nick@customerrily.com" method="POST">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate" name="First Name">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate" name="Last Name">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="email" type="email" class="validate" name="Email">
+              <label for="email">Email</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="phone" type="tel" class="validate" name="Phone">
+              <label for="phone">Phone</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <textarea id="comments" class="materialize-textarea" name="Comments"></textarea>
+              <label for="textarea1">Comments</label>
+            </div>
+          </div>
+          <div class="row center">
+            <button class="btn waves-effect waves-light indigo" type="submit" name="action">Submit
+              <i class="material-icons right">favorite</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
   <footer class="page-footer black">
     <div class="container">
       <div class="row">
@@ -153,29 +226,17 @@
           <p class="grey-text text-lighten-4">Based in Hingham, on the South Shore of Boston, we design and develop custom websites and web applications.</p>
 
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+        <div class="col l6 s12 right-align">
+          <p class="white-text">
+            <span class="pacifico">Customerrily </span><br>12 Nutty Hill Road <br>Hingham <br>MA 02043
+          </p>
+          <a href="tel:1-617-855-9457" class="page-link pink-text">617-855-9457</a>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made by <a class="indigo-text pacifico" href="http://customerrily.com">Customerrily</a>
       </div>
     </div>
   </footer>

@@ -17,7 +17,7 @@ body {
   font-family: Lato;
 }
 
-.brand-logo, h1, h2, .card-title, .services-title {
+.brand-logo, h1, h2, .card-title, .services-title, .pacifico {
   font-family: Pacifico;
 }
 
@@ -38,6 +38,10 @@ nav ul li a, .hero-subtitle {
   margin: 25px 0;
 }
 
+.sep-line {
+  height: 25px;
+}
+
 .services {
   padding: 50px;
 }
@@ -51,5 +55,21 @@ nav ul li a, .hero-subtitle {
 }
 
 .services-icon {
-  width: 50px;
+  height: 70px;
+}
+
+a.page-link {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/*Form styling*/
+
+/* label focus color */
+.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=tel]:focus + label, #comments:focus + label{
+  color: #3f51b5;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=tel]:focus, #comments:focus {
+  border-bottom: 1px solid #3f51b5;
+  box-shadow: 0 1px 0 0 #3f51b5;
 }
