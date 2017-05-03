@@ -17,8 +17,8 @@ body {
   font-family: Lato;
 }
 
-.brand-logo, h1, h2, .card-title, .services-title, .pacifico {
-  font-family: Pacifico;
+.brand-logo, h1, h2, .card-title, .services-title, .brand {
+  font-family: Baloo;
 }
 
 nav ul li.active {
@@ -27,6 +27,10 @@ nav ul li.active {
 
 nav ul li a, .hero-subtitle {
   letter-spacing: 0.8px;
+}
+
+nav ul a:hover {
+    background-color: rgba(0, 188, 212, 0.1);
 }
 
 .hero-band {
