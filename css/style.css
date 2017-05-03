@@ -25,6 +25,13 @@ body {
   font-family: Baloo;
 }
 
+.favicon {
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 10px 0 0;
+}
+
 nav ul li.active {
     background-color: #e91e63;
 }
