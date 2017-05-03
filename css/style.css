@@ -17,6 +17,10 @@ body {
   font-family: Lato;
 }
 
+#index-banner {
+  padding: 2% 0;
+}
+
 .brand-logo, h1, h2, .card-title, .services-title, .brand {
   font-family: Baloo;
 }
