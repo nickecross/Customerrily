@@ -25,6 +25,10 @@ body {
   font-family: "Dosis";
 }
 
+.hero-subtitle {
+  font-size: 1.5em;
+}
+
 .favicon {
   width: 40px;
   display: inline-block;
