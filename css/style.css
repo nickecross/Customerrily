@@ -22,7 +22,11 @@ body {
 }
 
 .brand-logo, h1, h2, .card-title, .services-title, .brand {
-  font-family: "Dosis";
+  font-family: "Squada One", cursive;
+}
+
+.logo {
+  display: flex;
 }
 
 .hero-subtitle {
@@ -30,7 +34,8 @@ body {
 }
 
 .favicon {
-  width: 40px;
+  height: 100%;
+  max-width: 45px;
   margin: 0 10px 0 0;
 }
 
