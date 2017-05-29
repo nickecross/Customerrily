@@ -17,6 +17,10 @@ body {
   font-family: Lato;
 }
 
+.nav-wrapper {
+  margin: 0 25px;
+}
+
 #index-banner {
   padding: 2% 0;
 }
