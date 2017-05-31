@@ -29,10 +29,8 @@
 </head>
 <body>
   <a name="home"></a>
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a class="grey-text text-darken-3" href="https://www.linkedin.com/in/nickecross/">LinkedIn</a></li>
-    <li class="divider"></li>
-  </ul>
+
+  <!-- Navbar content starts here -->
   <div class="navbar-fixed">
     <nav class="white" role="navigation">
       <div class="nav-wrapper">
@@ -41,8 +39,8 @@
             <img src="images/favicon.svg" alt="Customerrily Favicon" class="favicon left">
             <span class="indigo-text brand-logo">Customerrily</span>
         </a>
-        <ul class="right hide-on-med-and-down">
-          <li><a class="grey-text text-darken-3" href="#work">Work</a></li>
+        <ul class="right hide-on-med-and-down uppercase">
+          <li><a class="grey-text text-darken-3" href="#projects">Projects</a></li>
           <li><a class="grey-text text-darken-3" href="#contact">Contact</a></li>
           <li class="active"><a class="white-text" href="#home"><i class="material-icons">home</i></a></li>
           <!-- Dropdown Trigger -->
@@ -52,186 +50,268 @@
     </nav>
   </div>
 
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a class="grey-text text-darken-3" href="https://www.linkedin.com/in/nickecross/">LinkedIn</a></li>
+    <li class="divider"></li>
+  </ul>
+
+  <!-- Navbar Drawer -->
+
   <ul id="nav-mobile" class="side-nav">
-    <li><a class="grey-text text-darken-3" href="#work">Work</a></li>
+    <li><a class="grey-text text-darken-3" href="#projects">Projects</a></li>
     <li><a class="grey-text text-darken-3" href="#contact">Contact</a></li>
     <li class="active"><a class="white-text" href="#home"><i class="material-icons">home</i></a></li>
   </ul>
 
-  <div class="section no-pad-bot indigo" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center cyan-text"><span class="white-text">South Shore</span> Web Development</h1>
-      <div class="row center">
-        <h5 class="header col s12 hero-subtitle white-text">Bringing custom web design and marketing to the South Shore of Boston.</h5>
-      </div>
-      <div class="row center">
-        <a href="#contact" id="download-button" class="btn-large waves-effect waves-light cyan scale-transition scale-in hero-btn">Get in touch</a>
-      </div>
-      <br><br>
+  <!-- Page content starts here -->
 
-    </div>
-  </div>
+  <div class="row" id="content">
 
-  <div class="section">
-    <div class="row">
-      <div class="col s12 m6 l3 center">
-        <div class="services">
-          <img src="images/Lighthouse.svg" alt="Branding" class="services-icon">
-          <h3 class="services-title">Branding</h3>
-          <p>Your website needs to represent your brand in the best way possible. We work closely with you to understand your brand before making our design recommendations for graphics, images, colors, and fonts.</p>
+    <!-- Page content -->
+    <div class="col s12 m8 l9">
+
+      <!-- hero section -->
+      <div class="section">
+        <div class="row">
+          <div class="hero left">
+            <h1 class="header indigo-text"><span class="pink-text">Custom Digital </span>Solutions for Business</h1>
+            <h5 class="header hero-subtitle">Custom design, development and marketing solutions for the digital era.</h5>
+          </div>
         </div>
       </div>
-      <div class="col s12 m6 l3 center">
-        <div class="services">
-          <img src="images/glasses.svg" alt="Web Design" class="services-icon">
-          <h3 class="services-title">Web Design</h3>
+
+      <!-- services section -->
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-3 hoverable">
+              <div class="card-image">
+                <img src="images/Lighthouse.svg" alt="Branding" class="services-icon">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Branding and Graphics</span>
+              </div>
+              <div class="card-action">
+                <a class="indigo-text" href="#brand-modal">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-3 hoverable">
+              <div class="card-image">
+                <img src="images/sailboat.svg" alt="Web Design and Development" class="services-icon">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Web Design and Development</span>
+              </div>
+              <div class="card-action">
+                <a href="#web-modal" class="indigo-text">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-3 hoverable">
+              <div class="card-image">
+                <img src="images/BucketandSpade.svg" alt="Web and Mobile App Development" class="services-icon">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Mobile App Development</span>
+              </div>
+              <div class="card-action">
+                <a href="#mobile-modal" class="indigo-text">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l3">
+            <div class="card z-depth-3 hoverable">
+              <div class="card-image">
+                <img src="images/lolly.svg" alt="Digital Marketing and Advertising" class="services-icon">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Digital Marketing and Advertising</span>
+              </div>
+              <div class="card-action">
+                <a href="#marketing-modal" class="indigo-text">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services modals -->
+      <div id="brand-modal" class="modal">
+        <div class="modal-content">
+          <h3>Branding and Graphics</h3>
+          <p>Put simply: We believe in the power of brands. A truly great digital strategy always has the brand at it's heart and, digitally speaking, the presentation of your content is critical to get this right. We help you creatively to build assets (text, images, graphics) that reflect your brand beautifully.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Close</a>
+          <a href="#contact" class="modal-action modal-close waves-effect indigo white-text waves-green btn-flat">Contact us</a>
+        </div>
+      </div>
+
+      <div id="web-modal" class="modal">
+        <div class="modal-content">
+          <h3>Web Design and Development</h3>
           <p>A new website design needs to help your organization achieve it's goals, whether that be increased engagement, lead generation or sales. Our design process begins and ends with helping you achieve these goals.</p>
         </div>
-      </div>
-      <div class="col s12 m6 l3 center">
-        <div class="services">
-          <img src="images/BucketandSpade.svg" alt="Web Development" class="services-icon">
-          <h3 class="services-title">Web Development</h3>
-          <p>Building your website or application requires careful consideration of the available technologies. We develop sites and apps using the latest in web technologies and frameworks, such as React.</p>
+        <div class="modal-footer">
+          <a href="#contact" class="modal-action modal-close waves-effect waves-green btn-flat">Contact us</a>
+          <a href="#contact" class="modal-action modal-close waves-effect indigo white-text waves-green btn-flat">Contact us</a>
         </div>
       </div>
-      <div class="col s12 m6 l3 center">
-        <div class="services">
-          <img src="images/lolly.svg" alt="Marketing" class="services-icon">
-          <h3 class="services-title">Digital Marketing</h3>
+
+      <div id="mobile-modal" class="modal">
+        <div class="modal-content">
+          <h3>Mobile App Development</h3>
+          <p>Building your mobile application requires careful consideration of the available technologies. We develop apps using the latest in web technologies and frameworks, such as React.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#contact" class="modal-action modal-close waves-effect waves-green btn-flat">Contact us</a>
+          <a href="#contact" class="modal-action modal-close waves-effect indigo white-text waves-green btn-flat">Contact us</a>
+        </div>
+      </div>
+
+      <div id="marketing-modal" class="modal">
+        <div class="modal-content">
+          <h3>Digital Marketing and Advertising</h3>
           <p>Having a website is great, but it works a lot better if you actually get folks to visit it and do something, like send you a message or call you. Our expert digital marketing team has got you covered.</p>
         </div>
+        <div class="modal-footer">
+          <a href="#contact" class="modal-action modal-close waves-effect waves-green btn-flat">Contact us</a>
+          <a href="#contact" class="modal-action modal-close waves-effect indigo white-text waves-green btn-flat">Contact us</a>
+        </div>
       </div>
-    </div>
-    <a name="work"></a>
-    <div class="row">
-      <div class="col s4 indigo sep-line"></div>
-      <div class="col s4 pink sep-line"></div>
-      <div class="col s4 cyan sep-line"></div>
-    </div>
-  </div>
 
-  <div class="section">
-    <div class="row">
-      <div class="col s12">
-        <h2 class="center">Recent Projects</h2>
-        <div class="col s4 offset-s4">
-          <div class="row">
-            <div class="col s4 indigo title-line"></div>
-            <div class="col s4 pink title-line"></div>
-            <div class="col s4 cyan title-line"></div>
+      <!-- projects section -->
+      <a name="projects"></a>
+      <div class="section top-pad">
+        <div class="row">
+          <div class="col s12">
+            <h2>Recent Projects</h2>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="images/GGCP.png">
+        <div class="row">
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/GGCP.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Gigi's Crafty Place</span>
+                <p>We had great fun working on this website for the Cohasset based party venue, Gigi's Crafty Place.</p>
+              </div>
+              <div class="card-action">
+                <a href="http://www.gigiscraftyplace.com" target="_blank"  class="indigo-text">Visit site</a>
+              </div>
+            </div>
           </div>
-          <div class="card-content">
-            <span class="card-title">Gigi's Crafty Place</span>
-            <p>We had great fun working on this website for the Cohasset based party venue, Gigi's Crafty Place.</p>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/VEC.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Van Etten Consulting</span>
+                <p>Van Etten Consulting, based in Cohasset, needed a new logo and website re-design.</p>
+              </div>
+              <div class="card-action">
+                <a href="http://www.vanettenconsulting.com" target="_blank" class="indigo-text">Visit site</a>
+              </div>
+            </div>
           </div>
-          <div class="card-action">
-            <a href="http://www.gigiscraftyplace.com" target="_blank"  class="indigo-text">Visit site</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="images/VEC.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Van Etten Consulting</span>
-            <p>Van Etten Consulting, based in Cohasset, needed a new logo and website re-design.</p>
-          </div>
-          <div class="card-action">
-            <a href="http://www.vanettenconsulting.com" target="_blank" class="indigo-text">Visit site</a>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
-            <img src="images/SandT.png">
-          </div>
-          <div class="card-content">
-            <span class="card-title">Silk+Teak</span>
-            <p>This Milton based eCommerce startup, needed a custom website and digital marketing strategy.</p>
-          </div>
-          <div class="card-action">
-            <a href="http://www.silkandteak.com" target="_blank" class="indigo-text">Visit site</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="section">
-    <a name="contact"></a>
-    <div class="row">
-      <div class="col s4 indigo sep-line"></div>
-      <div class="col s4 pink sep-line"></div>
-      <div class="col s4 cyan sep-line"></div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h2 class="center">Get in touch!</h2>
-          <div class="col s4 offset-s4">
-            <div class="row">
-              <div class="col s4 indigo title-line"></div>
-              <div class="col s4 pink title-line"></div>
-              <div class="col s4 cyan title-line"></div>
+          <div class="col s12 m6 l4">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/SandT.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Silk+Teak</span>
+                <p>This Milton based eCommerce startup, needed a custom website and digital marketing strategy.</p>
+              </div>
+              <div class="card-action">
+                <a href="http://www.silkandteak.com" target="_blank" class="indigo-text">Visit site</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row">
-        <form  name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/a/customerrily.com/forms/d/e/1FAIpQLSeXS-JkqAp63kvdZKxEKaZI-4tGcBp6OaikF5NxGGNQ1VmWfQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+      <!-- contact us section -->
+      <a name="contact"></a>
+      <div class="section top-pad">
+        <div class="row">
+          <div class="col s12">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
           <div class="row">
-            <div class="input-field col s6">
-              <input id="entry.1498566924" type="text" class="validate" name="entry.1498566924">
-              <label for="first_name">First Name</label>
-            </div>
-            <div class="input-field col s6">
-              <input id="entry.1872439500" type="text" class="validate" name="entry.1872439500">
-              <label for="last_name">Last Name</label>
-            </div>
+            <form  name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/a/customerrily.com/forms/d/e/1FAIpQLSeXS-JkqAp63kvdZKxEKaZI-4tGcBp6OaikF5NxGGNQ1VmWfQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input id="entry.1498566924" type="text" class="validate" name="entry.1498566924">
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="entry.1872439500" type="text" class="validate" name="entry.1872439500">
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12 m6">
+                  <input id="entry.505280985" type="email" class="validate" name="entry.505280985">
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12 m6">
+                  <input id="entry.722559070" type="tel" class="validate" name="entry.722559070">
+                  <label for="phone">Phone</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="entry.1689290314" class="materialize-textarea" name="entry.1689290314"></textarea>
+                  <label for="textarea1">Comments</label>
+                </div>
+              </div>
+              <div class="row center">
+                <button class="btn waves-effect waves-light indigo" type="submit" value="submit" name="action">Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+              <input type="hidden" name="_next" value="http://customerrily.com" />
+            </form>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
           </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="entry.505280985" type="email" class="validate" name="entry.505280985">
-              <label for="email">Email</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="entry.722559070" type="tel" class="validate" name="entry.722559070">
-              <label for="phone">Phone</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <textarea id="entry.1689290314" class="materialize-textarea" name="entry.1689290314"></textarea>
-              <label for="textarea1">Comments</label>
-            </div>
-          </div>
-          <div class="row center">
-            <button class="btn waves-effect waves-light indigo" type="submit" value="submit" name="action">Submit
-              <i class="material-icons right">send</i>
-            </button>
-          </div>
-          <input type="hidden" name="_next" value="http://customerrily.com" />
-        </form>
-        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+        </div>
+      </div>
+
+    <!-- Sidebar -->
+    <div class="col s12 m4 l3">
+      <div class="card indigo darken-2 white-text">
+        <div class="card-content">
+          <span class="card-title cyan-text">Give us a call</span>
+          <p>We're excited to hear about your project!</p>
+        </div>
+        <div class="card-action">
+          <a href="tel: +1-617-855-9457" target="_blank" class="white-text">617-855-9457</a>
+        </div>
+      </div>
+      <div class="card medium">
+        <div class="card-image">
+          <img src="images/nick2.jpg" alt="Nick Cross" id="nick">
+        </div>
+        <div class="card-content">
+          <span class="card-title">Meet Nick!</span>
+          <p>Schedule a meeting with Nick Cross, Founder of Customerrily.</p>
+        </div>
+        <div class="card-action">
+          <a href="#contact" class="indigo-text">Contact Nick!</a>
+        </div>
       </div>
     </div>
-  </div>
-
 
   </div>
 
@@ -266,9 +346,9 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/scripts.js"></script>
 
   <!-- Scripts related to GForm submit -->
-  <script src="assets/js/jquery.min.js"></script>
   <script type="text/javascript">var submitted=false;</script>
   <script type="text/javascript">
   $('#gform').on('submit', function(e) {

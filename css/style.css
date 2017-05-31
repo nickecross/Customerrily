@@ -17,15 +17,27 @@ body {
   font-family: Lato;
 }
 
+#content {
+  padding-top: 25px;
+}
+
+.top-pad {
+  padding-top: 3rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 .nav-wrapper {
   margin: 0 25px;
 }
 
-#index-banner {
-  padding: 2% 0;
+.hero {
+  padding: 0 2% 5% 2%;
 }
 
-.brand-logo, h1, h2, .card-title, .services-title, .brand {
+.brand-logo, h1, h2, h3, .card-title, .brand {
   font-family: "Squada One", cursive;
 }
 
@@ -51,9 +63,9 @@ nav ul li a, .hero-subtitle {
   letter-spacing: 0.8px;
 }
 
-nav ul a:hover {
+/*nav ul a:hover {
     background-color: rgba(0, 188, 212, 0.1);
-}
+}*/
 
 .hero-band {
   height: 18px;
@@ -73,7 +85,7 @@ nav ul a:hover {
 }
 
 .services-title {
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .hero-btn {
@@ -81,11 +93,16 @@ nav ul a:hover {
 }
 
 .services-icon {
-  height: 70px;
+  height: 100px;
+  padding: 15px;
+  align-content: center;
 }
 
 a.page-link {
   color: rgba(0, 0, 0, 0.87);
+}
+
+#nick {
 }
 
 /*Form styling*/
