@@ -45,8 +45,13 @@ body {
   display: flex;
 }
 
+.hero-header {
+  font-size: 4em;
+}
+
 .hero-subtitle {
   font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 .favicon {
@@ -93,8 +98,13 @@ nav ul li a, .hero-subtitle {
 }
 
 .services-icon {
+  height: 120px;
+  padding-top: 25px;
+}
+
+.footer-logo {
   height: 100px;
-  padding: 15px;
+  margin-top: 20px;
 }
 
 a.page-link {
@@ -104,14 +114,18 @@ a.page-link {
 #nick {
 }
 
+.map-margin {
+  margin-top: 15px;
+}
+
 /*Form styling*/
 
 /* label focus color */
-.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=tel]:focus + label, #comments:focus + label{
+/*.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=tel]:focus + label, #comments:focus + label{
   color: #3f51b5;
-}
+}*/
 /* label underline focus color */
-.input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=tel]:focus, #comments:focus {
+/*.input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=tel]:focus, #comments:focus {
   border-bottom: 1px solid #3f51b5;
   box-shadow: 0 1px 0 0 #3f51b5;
-}
+}*/
