@@ -103,15 +103,12 @@ nav ul li a, .hero-subtitle {
 }
 
 .footer-logo {
-  height: 100px;
+  height: 50px;
   margin-top: 20px;
 }
 
 a.page-link {
   color: rgba(0, 0, 0, 0.87);
-}
-
-#nick {
 }
 
 .map-margin {
