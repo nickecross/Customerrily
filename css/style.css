@@ -60,17 +60,22 @@ body {
   margin: 0 10px 0 0;
 }
 
-nav ul li.active {
-    background-color: #e91e63;
-}
-
 nav ul li a, .hero-subtitle {
   letter-spacing: 0.8px;
 }
 
-/*nav ul a:hover {
-    background-color: rgba(0, 188, 212, 0.1);
-}*/
+nav ul li.active {
+    background-color: #e91e63;
+}
+
+nav ul a:hover {
+  background-color: #3F51B5;
+}
+
+nav ul a.grey-text.text-darken-3:hover {
+  color: white !important;
+}
+
 
 .hero-band {
   height: 18px;
