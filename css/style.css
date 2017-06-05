@@ -41,6 +41,10 @@ body {
   font-family: "Squada One", cursive;
 }
 
+.brand-logo {
+  text-transform: uppercase;
+}
+
 .logo {
   display: flex;
 }
