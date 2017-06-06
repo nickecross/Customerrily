@@ -37,6 +37,10 @@ body {
   padding: 0 2% 5% 2%;
 }
 
+.btn-margin {
+  margin: 0 10px;
+}
+
 .brand-logo, h1, h2, h3, .card-title, .brand {
   font-family: "Squada One", cursive;
 }
