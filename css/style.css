@@ -43,13 +43,14 @@
   font-size: 24px;
   font-family: Roboto;
   line-height: 1.5em;
+  max-width: 85%;
 }
 
 .btn-margin {
   margin: 10px;
 }
 
-.brand-logo, h1, h2, h3, .card-title, .brand {
+.brand-logo, h1, h2, h3, .card-title {
   font-family: "Overpass";
 }
 
