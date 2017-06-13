@@ -6,15 +6,16 @@
  * Made By MaterializeCSS.com
  */
 
+ body {
+   font-family: Roboto;
+ }
+
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
 	font-size: inherit;
-}
-
-body {
-  font-family: Lato;
 }
 
 #content {
@@ -30,11 +31,18 @@ body {
 }
 
 .nav-wrapper {
-  margin: 0 25px;
+  margin: 0 50px;
 }
 
-.hero {
-  padding: 0 2% 5% 2%;
+.c-hero {
+  height: 400px;
+  padding: 0 50px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  font-family: Roboto;
+  line-height: 1.5em;
 }
 
 .btn-margin {
@@ -42,24 +50,21 @@ body {
 }
 
 .brand-logo, h1, h2, h3, .card-title, .brand {
-  font-family: "Squada One", cursive;
+  font-family: "Overpass";
 }
 
-.brand-logo {
+nav .brand-logo {
+  font-size: 20px;
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
 }
 
 .logo {
   display: flex;
-}
-
-.hero-header {
-  font-size: 4em;
-}
-
-.hero-subtitle {
-  font-size: 1.5em;
-  line-height: 1.5em;
 }
 
 .favicon {
@@ -68,8 +73,9 @@ body {
   margin: 0 10px 0 0;
 }
 
-nav ul li a, .hero-subtitle {
-  letter-spacing: 0.8px;
+nav ul li a {
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 nav ul li.active {
@@ -84,18 +90,9 @@ nav ul a.grey-text.text-darken-3:hover {
   color: white !important;
 }
 
-
-.hero-band {
-  height: 18px;
-}
-
 .title-line {
   height: 5px;
   margin: 25px 0;
-}
-
-.sep-line {
-  height: 25px;
 }
 
 .services {
@@ -106,12 +103,8 @@ nav ul a.grey-text.text-darken-3:hover {
   font-size: 1em;
 }
 
-.hero-btn {
-  margin-top: 25px;
-}
-
 .services-icon {
-  height: 120px;
+  height: 100px;
   padding-top: 25px;
 }
 
@@ -128,14 +121,6 @@ a.page-link {
   margin-top: 15px;
 }
 
-/*Form styling*/
-
-/* label focus color */
-/*.input-field input[type=text]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=tel]:focus + label, #comments:focus + label{
-  color: #3f51b5;
-}*/
-/* label underline focus color */
-/*.input-field input[type=text]:focus, .input-field input[type=email]:focus, .input-field input[type=tel]:focus, #comments:focus {
-  border-bottom: 1px solid #3f51b5;
-  box-shadow: 0 1px 0 0 #3f51b5;
-}*/
+.card .card-title {
+  font-weight: bold;
+}
