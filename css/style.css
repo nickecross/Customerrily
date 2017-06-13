@@ -35,7 +35,7 @@
 }
 
 .c-hero {
-  height: 400px;
+  min-height: 400px;
   padding: 0 50px;
 }
 
