@@ -12,4 +12,7 @@ $(document).ready(function(){
     $('#gform *').fadeOut(2000);
     $('#gform').prepend('<p style="text-align: center;">Thank you for your submission! We will be in touch shortly.</p>');
     });
+    $('.scrollspy').scrollSpy({
+      scrollOffset:200;
+    });
 });
