@@ -11,10 +11,6 @@
    height: 100%;
  }
 
- p {
-   font-size: 1.5em;
- }
-
  .c-section {
    padding: 100px 50px;
  }
@@ -54,8 +50,13 @@
   padding: 0 50px;
 }
 
-.c-hero-header {
-  font-size: 5em;
+@media only screen and (min-width: 992px){
+  .c-hero-header {
+    font-size: 5em;
+  }
+  p {
+    font-size: 1.5em;
+  }
 }
 
 .hero-subtitle {
