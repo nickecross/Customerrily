@@ -35,6 +35,13 @@
   margin: 0 25px;
 }
 
+.c-hero-subtitle {
+  font-size: 24px;
+  font-family: Roboto;
+  line-height: 1.5em;
+  width: 80%;
+}
+
 @media only screen and (max-width: 600px){
   .nav-wrapper {
     margin: 0 5px;
@@ -61,13 +68,6 @@
     min-height: 90%;
     padding: 0 50px;
   }
-}
-
-.c-hero-subtitle {
-  font-size: 24px;
-  font-family: Roboto;
-  line-height: 1.5em;
-  width: 80%;
 }
 
 .c-brand-logo, h1, h2, h3, .card-title {
