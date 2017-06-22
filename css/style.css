@@ -11,10 +11,6 @@
    height: 100%;
  }
 
- .c-section {
-   padding: 100px 50px;
- }
-
 .icon-block {
   padding: 0 15px;
 }
@@ -23,9 +19,9 @@
 	font-size: inherit;
 }
 
-#content {
+/*#content {
   padding-top: 25px;
-}
+}*/
 
 .top-pad {
   padding-top: 3rem;
@@ -45,17 +41,19 @@
   }
 }
 
-.c-hero {
-  min-height: 90%;
-  padding: 0 50px;
-}
-
 @media only screen and (min-width: 992px){
+  p {
+    font-size: 1.5em;
+  }
   .c-hero-header {
     font-size: 5em;
   }
-  p {
-    font-size: 1.5em;
+  .c-section {
+    padding: 100px 50px;
+  }
+  .c-hero {
+    min-height: 90%;
+    padding: 0 50px;
   }
 }
 
