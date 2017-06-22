@@ -9,6 +9,7 @@
  body, html {
    font-family: Roboto;
    height: 100%;
+   overflow-x: hidden;
  }
 
 .icon-block {
@@ -17,6 +18,10 @@
 
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+.page-footer {
+  background-color: #212121;
 }
 
 /*#content {
@@ -36,21 +41,14 @@
 }
 
 .c-hero-subtitle {
-  font-size: 24px;
   font-family: Roboto;
+  font-weight: normal;
   line-height: 1.5em;
-  width: 80%;
 }
 
 @media only screen and (max-width: 600px){
   .nav-wrapper {
     margin: 0 5px;
-  }
-  .c-hero-subtitle {
-    font-size: 16px;
-    font-family: Roboto;
-    line-height: 1.5em;
-    width: 100%;
   }
 }
 
@@ -68,10 +66,15 @@
     min-height: 90%;
     padding: 0 50px;
   }
+  .c-hero-subtitle {
+    font-size: 24px;
+    width: 70%;
+  }
 }
 
 .c-brand-logo, h1, h2, h3, .card-title {
   font-family: "Overpass";
+  font-weight: bold;
 }
 
 .c-menu-li {
@@ -93,7 +96,7 @@ h1 {
 
 .favicon {
   height: 100%;
-  max-width: 35px;
+  max-width: 45px;
   margin: 0 15px 0 0;
 }
 
@@ -107,7 +110,7 @@ nav ul li.active {
 }
 
 nav ul a:hover {
-  background-color: #3F51B5;
+  background-color: #00bcd4;
 }
 
 nav ul a.grey-text.text-darken-3:hover {
@@ -130,11 +133,6 @@ nav ul a.grey-text.text-darken-3:hover {
 .services-icon {
   height: 85px;
   padding-top: 25px;
-}
-
-.footer-logo {
-  height: 50px;
-  margin-top: 20px;
 }
 
 a.page-link {
@@ -169,10 +167,6 @@ a.page-link {
   font-weight: bold;
 }
 
-.page-footer {
-  padding-top: 0;
-}
-
 .c-services .card-title {
   font-size: 16px;
   font-weight: bold;
@@ -189,6 +183,7 @@ a.page-link {
 .c-guarantee {
   width: 70%;
   display: inline-block;
+  margin-top: 0;
 }
 
 /*Mautic Form Styling*/

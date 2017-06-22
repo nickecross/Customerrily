@@ -13,6 +13,6 @@ $(document).ready(function(){
     $('#gform').prepend('<p style="text-align: center;">Thank you for your submission! We will be in touch shortly.</p>');
     });
     $('.scrollspy').scrollSpy({
-      scrollOffset:100 
+      scrollOffset:100
     });
 });
