@@ -27,7 +27,7 @@
   </script>
   <!-- GA Tracking code END -->
   <!-- Start of Async Drift Code -->
-  <script>
+  <!-- <script>
   !function() {
     var t;
     if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
@@ -48,12 +48,11 @@
   }();
   drift.SNIPPET_VERSION = '0.3.1';
   drift.load('2vgvff3e77pd');
-  </script>
+  </script> -->
   <!-- End of Async Drift Code -->
 
 </head>
 <body>
-  <a name="home"></a>
 
   <!-- Navbar content starts here -->
   <div class="navbar-fixed">
@@ -95,7 +94,7 @@
 
   <!-- Page content starts here -->
   <!-- Hero section -->
-  <div class="section no-pad-top c-hero valign-wrapper">
+  <div class="section no-pad-top c-hero valign-wrapper" id="home">
     <div class="row">
       <div class="col l12">
         <h1 class="header indigo-text c-hero-header">We are your professional
@@ -121,7 +120,7 @@
   </div>
 
   <!-- What we do section -->
-  <div class="section scrollspy c-section" id="services">
+  <div class="section c-section" id="services">
     <div class="row">
       <div class="col l6">
         <h2 class="indigo-text">What we do for you</h2>
@@ -148,7 +147,7 @@
   </div>
 
   <!-- Satisfaction guarantee section -->
-  <div class="section scrollspy c-section pink white-text" id="guarantee">
+  <div class="section c-section pink white-text" id="guarantee">
     <div class="row">
       <div class="col m12 l12 center-align">
         <h2>Satisfaction <span class="c-underline">Guaranteed</span></h2>
@@ -159,7 +158,7 @@
 
 
   <!-- What it costs section -->
-  <div class="section scrollspy c-section" id="pricing">
+  <div class="section c-section" id="pricing">
     <div class="row">
       <div class="col m12 l6">
         <h2 class="indigo-text">How much does it cost?</h2>
@@ -171,7 +170,7 @@
     </div>
   </div>
 
-  <div class="section scrollspy c-section grey lighten-5">
+  <div class="section c-section grey lighten-5">
     <div class="row">
       <div class="col l12">
         <h2>How it works</h2><br>
@@ -207,6 +206,7 @@
       <div class="col l12">
         <h2 class="center-align">Contact Us</h2>
 
+        <!-- Mautic contact form -->
         <div id="mauticform_wrapper_contactus" class="mauticform_wrapper">
             <form autocomplete="false" role="form" method="post" action="https://customerrily.mautic.net/form/submit?formId=1" id="mauticform_contactus" data-mautic-form="contactus">
                 <div class="mauticform-error" id="mauticform_contactus_error"></div>
@@ -312,14 +312,14 @@
     </div>
     <div class="footer-copyright">
       <div class="container center-align">
-      © 2014-2017 Customerrily, All rights reserved.
+      ©2017 Customerrily, All rights reserved.
       <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
       </div>
     </div>
   </footer>
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script src="js/scripts.js"></script>
@@ -350,6 +350,6 @@
 
     mt('send', 'pageview');
   </script>
-  </body>
 
+  </body>
 </html>
