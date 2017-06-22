@@ -55,14 +55,15 @@
     min-height: 90%;
     padding: 0 50px;
   }
+  .c-hero-subtitle {
+    font-size: 24px;
+    font-family: Roboto;
+    line-height: 1.5em;
+    width: 80%;
+  }
 }
 
-.hero-subtitle {
-  font-size: 24px;
-  font-family: Roboto;
-  line-height: 1.5em;
-  width: 80%;
-}
+
 
 .btn-margin {
   margin: 10px;
