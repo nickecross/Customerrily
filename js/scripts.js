@@ -2,13 +2,9 @@ $(document).ready(function(){
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     console.log("scripts are loading correctly!");
     $('.modal').modal();
-    $("nav").find("a").click(function(e) {
-    e.preventDefault();
-    var section = $(this).attr("href");
-    $("html, body").animate({
-        scrollTop: $(section).offset().top
+    $('.scrollspy').scrollSpy({
+      scrollOffset: 100
     });
-  });
     //Scripts related to GForm submit
     // var submitted=false;
     // $('#gform').on('submit', function(e) {
