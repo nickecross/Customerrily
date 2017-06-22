@@ -39,6 +39,12 @@
   .nav-wrapper {
     margin: 0 5px;
   }
+  .c-hero-subtitle {
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 1.5em;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 992px){
@@ -55,21 +61,16 @@
     min-height: 90%;
     padding: 0 50px;
   }
-  .c-hero-subtitle {
-    font-size: 24px;
-    font-family: Roboto;
-    line-height: 1.5em;
-    width: 80%;
-  }
 }
 
-
-
-.btn-margin {
-  margin: 10px;
+.c-hero-subtitle {
+  font-size: 24px;
+  font-family: Roboto;
+  line-height: 1.5em;
+  width: 80%;
 }
 
-.brand-logo, h1, h2, h3, .card-title {
+.c-brand-logo, h1, h2, h3, .card-title {
   font-family: "Overpass";
 }
 
@@ -80,7 +81,7 @@
   padding: 0 20px;
 }
 
-nav .brand-logo {
+nav .c-brand-logo {
   font-size: 1.5em;
   /*text-transform: uppercase;*/
   font-weight: bold;
