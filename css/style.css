@@ -20,13 +20,18 @@
 	font-size: inherit;
 }
 
-.page-footer {
-  background-color: #212121;
-}
-
 /*#content {
   padding-top: 25px;
 }*/
+
+.btn {
+  text-transform: none;
+  font-size: 1.4rem;
+}
+
+.c-hero-btn {
+  margin-right: 25px;
+}
 
 .top-pad {
   padding-top: 3rem;
@@ -45,6 +50,7 @@
   font-family: Roboto;
   font-weight: normal;
   line-height: 1.5em;
+  margin-bottom: 45px;
 }
 
 @media only screen and (max-width: 600px){
@@ -55,7 +61,7 @@
 
 @media only screen and (min-width: 992px){
   p {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   .c-hero-header {
     font-size: 5em;
@@ -64,12 +70,11 @@
     padding: 100px 50px;
   }
   .c-hero {
-    min-height: 90%;
+    min-height: 85%;
     padding: 0 50px;
   }
   .c-hero-subtitle {
     font-size: 24px;
-    width: 70%;
   }
 }
 
@@ -81,8 +86,11 @@
 .c-menu-li {
   text-transform: none;
   font-weight: normal;
-  font-size: 16px;
-  padding: 0 20px;
+  font-size: 14px;
+}
+
+.c-menu-home {
+  margin-left: 10px;
 }
 
 nav .c-brand-logo {
@@ -106,12 +114,12 @@ h1 {
   text-transform: uppercase;
 }*/
 
-nav ul li.active {
-    background-color: #e91e63;
+nav ul li .active {
+    background-color: #3f51b5;
 }
 
 nav ul a:hover {
-  background-color: #00bcd4;
+  background-color: #e91e63;
 }
 
 nav ul a.grey-text.text-darken-3:hover {
@@ -183,8 +191,23 @@ a.page-link {
 
 .c-guarantee {
   width: 70%;
+  font-size: 1.5em;
   display: inline-block;
   margin-top: 0;
+}
+
+.c-page-hero-row {
+  margin-bottom: 0;
+}
+
+.section.c-page-hero-section {
+  padding: 25px 0;
+}
+
+.c-ul-numbers {
+  font-size: 32px;
+  font-weight: bold;
+  color: #3f51b5;
 }
 
 /*Mautic Form Styling*/
