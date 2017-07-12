@@ -12,6 +12,10 @@
    overflow-x: hidden;
  }
 
+ a {
+   color: #e91e63;
+ }
+
 .icon-block {
   padding: 0 15px;
 }
