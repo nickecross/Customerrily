@@ -86,7 +86,8 @@
 .c-menu-li {
   text-transform: none;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
+  padding: 0 25px;
 }
 
 nav .c-brand-logo {
