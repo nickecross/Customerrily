@@ -30,11 +30,11 @@
 
 .btn {
   text-transform: none;
-  font-size: 1.4rem;
+  font-size: 1.8em;
 }
 
 .c-hero-btn {
-  margin-right: 25px;
+  margin: 0 25px;
 }
 
 .top-pad {
@@ -68,7 +68,7 @@
     font-size: 1.2em;
   }
   .c-hero-header {
-    font-size: 5em;
+    font-size: 6em;
   }
   .c-section {
     padding: 100px 50px;
@@ -89,6 +89,7 @@
 
 .c-menu-li {
   text-transform: none;
+  letter-spacing: 0.8px;
   font-weight: normal;
   font-size: 16px;
   padding: 0 25px;
